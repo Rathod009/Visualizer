@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@android:color/white"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="295dp"
+        android:layout_height="295dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/black"
+        android:id="@+id/layout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text=" Instruction:\n 1.CreamHotAirBalloon are our\n    enemy\n 2.BlueHotBalloons are our \n    friend\n 3.Enemy kill : +10\n 4.Friend kill : -15"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/btnstyle"
+            android:text="Start"
+            android:textColor="@color/white"
+            android:textSize="21dp"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

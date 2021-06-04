@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@android:color/white"
+    android:layout_gravity="center"
+    >
+
+    <RelativeLayout
+        android:layout_width="295dp"
+        android:layout_height="295dp"
+        android:background="@android:color/black"
+        android:layout_centerInParent="true"
+        android:id="@+id/layout">
+
+        <TextView
+            android:id="@+id/Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:text="Time Taken\n00:00"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_below="@+id/Time"
+            android:text="Score\n"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnRestart"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/btnstyle"
+            android:text="Restart"
+            android:textColor="@color/white"
+            android:textSize="21dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

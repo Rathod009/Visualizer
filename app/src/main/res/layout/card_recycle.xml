@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="1000dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    android:foregroundGravity="center"
+    android:background="#ccc"
+    app:cardBackgroundColor="#ccc"
+    >
+
+        <ImageView
+            android:id="@+id/placeHolder"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:scaleType="centerCrop"
+            android:src="@color/colorPrimary" />
+
+</androidx.cardview.widget.CardView>

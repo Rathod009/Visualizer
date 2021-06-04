@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1060589062298",
+    "project_id": "arvisualizer-b9550",
+    "storage_bucket": "arvisualizer-b9550.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060589062298:android:19ae3b241aad27f8c4f723",
+        "android_client_info": {
+          "package_name": "com.example.arversion2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060589062298-kvfhi4rdp1jgac4emjac05bd7mb7o9tu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiXvOL-n29nGrsk0Eq8iKSVsqA0q3kpX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060589062298-kvfhi4rdp1jgac4emjac05bd7mb7o9tu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060589062298:android:fb8649327efe7931c4f723",
+        "android_client_info": {
+          "package_name": "com.example.augmentedreality"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060589062298-kvfhi4rdp1jgac4emjac05bd7mb7o9tu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiXvOL-n29nGrsk0Eq8iKSVsqA0q3kpX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060589062298-kvfhi4rdp1jgac4emjac05bd7mb7o9tu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

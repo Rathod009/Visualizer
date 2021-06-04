@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Visualizer</string>
+    <string name="doodler">Doodler</string>
+    <string name="face_filter">Face Filter</string>
+    <string name="fun_mode">Fun Mode</string>
+    <string name="object_placer">Object Placer</string>
+    <string name="visualizer">Visualizer</string>
+    <string name="augmented_reality_zone">Augmented Reality Zone</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
